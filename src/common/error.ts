@@ -18,6 +18,9 @@ export const ERROR_HLC = 13;
 export const ERROR_SYNC_MESSAGE = 14;
 export const ERROR_SYNC_OVERFLOW = 15;
 export const ERROR_QUERY_SELECT_ALL_CYCLE = 16;
+export const ERROR_SPACETIMEDB_MISSING = 17;
+export const ERROR_SPACETIMEDB_CELL = 18;
+export const ERROR_SPACETIMEDB_DISCONNECTED = 19;
 
 export const errorNew = (code: number, details?: any): Error =>
   new Error(

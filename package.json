@@ -59,6 +59,7 @@
     "react-native-mmkv": "4.3.2",
     "react-native-sqlite-storage": "^6.0.1",
     "solid-js": "^1.9.15",
+    "spacetimedb": "^2.9.0",
     "sqlite3": "^5.1.7",
     "svelte": "^5.57.0",
     "valibot": "^1.4.2",
@@ -143,6 +144,9 @@
       "optional": true
     },
     "solid-js": {
+      "optional": true
+    },
+    "spacetimedb": {
       "optional": true
     },
     "sqlite3": {
@@ -297,6 +301,7 @@
     "rollup-plugin-prettier": "^4.2.0",
     "rollup-plugin-svelte": "^7.2.3",
     "solid-js": "^1.9.15",
+    "spacetimedb": "^2.9.0",
     "sqlite3": "^5.1.7",
     "svelte": "^5.57.0",
     "svelte-check": "^4.7.6",

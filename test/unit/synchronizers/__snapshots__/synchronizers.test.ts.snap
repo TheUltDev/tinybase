@@ -12127,6 +12127,3861 @@ exports[`Syncs to/from LocalSynchronizer > Unidirectional > save1 but not autoLo
 ]
 `;
 
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > Both empty > stats 1`] = `
+[
+  {
+    "receives": 2,
+    "sends": 3,
+  },
+  {
+    "receives": 3,
+    "sends": 2,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > Both empty 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > Both match > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > Both match 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    2931074034,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---47JQY8",
+        3553021608,
+      ],
+    },
+    "",
+    776317491,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > Both match, different times > stats 1`] = `
+[
+  {
+    "receives": 2,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 2,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > Both match, different times 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    2931074034,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---47JQY8",
+        3553021608,
+      ],
+    },
+    "",
+    776317491,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted cell > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted cell 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                undefined,
+                "Nn1JUGZ----4JQFF",
+                2874283974,
+              ],
+            },
+            "",
+            1634294017,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        3716131203,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    1735549132,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---47JQY8",
+        3553021608,
+      ],
+    },
+    "",
+    776317491,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted row > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted row 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                undefined,
+                "Nn1JUGZ----4JQFF",
+                2874283974,
+              ],
+            },
+            "",
+            2994786792,
+          ],
+        },
+        "",
+        1091220129,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    3906403798,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---47JQY8",
+        3553021608,
+      ],
+    },
+    "",
+    776317491,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted table > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted table 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                undefined,
+                "Nn1JUGZ----4JQFF",
+                2874283974,
+              ],
+            },
+            "",
+            2994786792,
+          ],
+        },
+        "",
+        3379187034,
+      ],
+    },
+    "",
+    3766378773,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---47JQY8",
+        3553021608,
+      ],
+    },
+    "",
+    776317491,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted tables > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted tables 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                undefined,
+                "Nn1JUGZ----4JQFF",
+                2874283974,
+              ],
+              "c2": [
+                undefined,
+                "Nn1JUGZ---04JQFF",
+                806213619,
+              ],
+            },
+            "",
+            293844238,
+          ],
+          "r2": [
+            {
+              "c2": [
+                undefined,
+                "Nn1JUGZ---14JQFF",
+                2345230842,
+              ],
+            },
+            "",
+            424606869,
+          ],
+        },
+        "",
+        2002388333,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                undefined,
+                "Nn1JUGZ---24JQFF",
+                3351587069,
+              ],
+            },
+            "",
+            1208342079,
+          ],
+        },
+        "",
+        4232684011,
+      ],
+    },
+    "",
+    390869244,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---47JQY8",
+        3553021608,
+      ],
+    },
+    "",
+    776317491,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted value > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted value 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    2931074034,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        undefined,
+        "Nn1JUGZ----4JQFF",
+        2874283974,
+      ],
+    },
+    "",
+    1543140922,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted values > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > deleted values 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    2931074034,
+  ],
+  [
+    {
+      "v1": [
+        undefined,
+        "Nn1JUGZ----4JQFF",
+        2874283974,
+      ],
+      "v2": [
+        undefined,
+        "Nn1JUGZ---04JQFF",
+        806213619,
+      ],
+    },
+    "",
+    3575080944,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different cell > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different cell 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                2,
+                "Nn1JUGZ----4JQFF",
+                1755900737,
+              ],
+            },
+            "",
+            4155763786,
+          ],
+        },
+        "",
+        3377209802,
+      ],
+    },
+    "",
+    1031011617,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different row > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different row 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUGZ----4JQFF",
+                1755900737,
+              ],
+            },
+            "",
+            4067788873,
+          ],
+        },
+        "",
+        539700876,
+      ],
+    },
+    "",
+    1283015725,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different table > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different table 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ----4JQFF",
+                1755900737,
+              ],
+            },
+            "",
+            563871904,
+          ],
+        },
+        "",
+        464123135,
+      ],
+    },
+    "",
+    2803383621,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different tables > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different tables 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ----4JQFF",
+                1755900737,
+              ],
+            },
+            "",
+            563871904,
+          ],
+        },
+        "",
+        2479426308,
+      ],
+    },
+    "",
+    1777869889,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different value > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different value 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {
+      "v1": [
+        2,
+        "Nn1JUGZ----4JQFF",
+        1755900737,
+      ],
+    },
+    "",
+    2607227104,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different values > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > different values 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm----7JQY8",
+        4283110482,
+      ],
+      "v2": [
+        2,
+        "Nn1JUGZ----4JQFF",
+        1755900737,
+      ],
+    },
+    "",
+    2853431913,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 empty > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 3,
+  },
+  {
+    "receives": 3,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 empty 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----4JQFF",
+                2320287886,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---04JQFF",
+                1406440844,
+              ],
+            },
+            "",
+            1023911963,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---14JQFF",
+                4217140477,
+              ],
+            },
+            "",
+            2038591181,
+          ],
+        },
+        "",
+        92284632,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---24JQFF",
+                3210784250,
+              ],
+            },
+            "",
+            3338046528,
+          ],
+        },
+        "",
+        1200691155,
+      ],
+    },
+    "",
+    481548923,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---34JQFF",
+        3417647300,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---44JQFF",
+        67704192,
+      ],
+    },
+    "",
+    2588011433,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing cell > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing cell 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUGZ----4JQFF",
+                1755900737,
+              ],
+            },
+            "",
+            4067788873,
+          ],
+        },
+        "",
+        539700876,
+      ],
+    },
+    "",
+    1283015725,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing row > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing row 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ----4JQFF",
+                1755900737,
+              ],
+            },
+            "",
+            563871904,
+          ],
+        },
+        "",
+        464123135,
+      ],
+    },
+    "",
+    2803383621,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing table > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing table 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ----4JQFF",
+                1755900737,
+              ],
+            },
+            "",
+            563871904,
+          ],
+        },
+        "",
+        2479426308,
+      ],
+    },
+    "",
+    1777869889,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing tables > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing tables 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUGZ----4JQFF",
+                1711016046,
+              ],
+              "c2": [
+                2,
+                "Nn1JUGZ---04JQFF",
+                1240626420,
+              ],
+            },
+            "",
+            941288912,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ---14JQFF",
+                1996685317,
+              ],
+            },
+            "",
+            3744087839,
+          ],
+        },
+        "",
+        3047398388,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ---24JQFF",
+                3296201762,
+              ],
+            },
+            "",
+            1655123860,
+          ],
+        },
+        "",
+        1832335786,
+      ],
+    },
+    "",
+    1032861780,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm----7JQY8",
+        4283110482,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---07JQY8",
+        2421895620,
+      ],
+    },
+    "",
+    2774915656,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing value > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing value 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUGZ----4JQFF",
+        1711016046,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm----7JQY8",
+        578793541,
+      ],
+    },
+    "",
+    3239005758,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing values > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store1 missing values 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    2931074034,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUGZ----4JQFF",
+        1711016046,
+      ],
+      "v2": [
+        2,
+        "Nn1JUGZ---04JQFF",
+        1240626420,
+      ],
+    },
+    "",
+    2347416856,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 empty > stats 1`] = `
+[
+  {
+    "receives": 2,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 2,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 empty 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    2931074034,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---47JQY8",
+        3553021608,
+      ],
+    },
+    "",
+    776317491,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing cell > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing cell 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----4JQFF",
+                2320287886,
+              ],
+              "c2": [
+                2,
+                "Nn1JUGZ----7JQY8",
+                1485971741,
+              ],
+            },
+            "",
+            2923885653,
+          ],
+        },
+        "",
+        1583274467,
+      ],
+    },
+    "",
+    3282842195,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing row > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing row 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----4JQFF",
+                2320287886,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---04JQFF",
+                1406440844,
+              ],
+            },
+            "",
+            1023911963,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ----7JQY8",
+                1485971741,
+              ],
+            },
+            "",
+            3158223681,
+          ],
+        },
+        "",
+        1876828157,
+      ],
+    },
+    "",
+    1190750985,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing table > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing table 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----4JQFF",
+                2320287886,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---04JQFF",
+                1406440844,
+              ],
+            },
+            "",
+            1023911963,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---14JQFF",
+                4217140477,
+              ],
+            },
+            "",
+            2038591181,
+          ],
+        },
+        "",
+        92284632,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ----7JQY8",
+                1485971741,
+              ],
+            },
+            "",
+            3158223681,
+          ],
+        },
+        "",
+        1650761970,
+      ],
+    },
+    "",
+    2844428043,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing tables > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing tables 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUGZ----7JQY8",
+                48969842,
+              ],
+              "c2": [
+                2,
+                "Nn1JUGZ---07JQY8",
+                3892979084,
+              ],
+            },
+            "",
+            2349625639,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ---17JQY8",
+                1698296257,
+              ],
+            },
+            "",
+            2585113155,
+          ],
+        },
+        "",
+        3908300938,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUGZ---27JQY8",
+                51738566,
+              ],
+            },
+            "",
+            3439859747,
+          ],
+        },
+        "",
+        656166504,
+      ],
+    },
+    "",
+    3573778153,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm----4JQFF",
+        2320287886,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---04JQFF",
+        1406440844,
+      ],
+    },
+    "",
+    1764340687,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing value > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing value 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUGZ----7JQY8",
+        48969842,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm----4JQFF",
+        3646060649,
+      ],
+    },
+    "",
+    2840826,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing values > stats 1`] = `
+[
+  {
+    "receives": 3,
+    "sends": 4,
+  },
+  {
+    "receives": 4,
+    "sends": 3,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional > store2 missing values 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----4JQFF",
+                2320287886,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---04JQFF",
+                1406440844,
+              ],
+            },
+            "",
+            1023911963,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---14JQFF",
+                4217140477,
+              ],
+            },
+            "",
+            2038591181,
+          ],
+        },
+        "",
+        92284632,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---24JQFF",
+                3210784250,
+              ],
+            },
+            "",
+            3338046528,
+          ],
+        },
+        "",
+        1200691155,
+      ],
+    },
+    "",
+    481548923,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUGZ----7JQY8",
+        48969842,
+      ],
+      "v2": [
+        2,
+        "Nn1JUGZ---07JQY8",
+        3892979084,
+      ],
+    },
+    "",
+    1336858351,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > conflicting cell at same time > stats 1`] = `
+[
+  {
+    "receives": 8,
+    "sends": 9,
+  },
+  {
+    "receives": 9,
+    "sends": 8,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > conflicting cell at same time 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUF-----7JQY8",
+                1003668370,
+              ],
+            },
+            "",
+            550994372,
+          ],
+        },
+        "",
+        1072852846,
+      ],
+    },
+    "",
+    1771939739,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > conflicting cell later > stats 1`] = `
+[
+  {
+    "receives": 11,
+    "sends": 12,
+  },
+  {
+    "receives": 12,
+    "sends": 11,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > conflicting cell later 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                2,
+                "Nn1JUF0----4JQFF",
+                2941533140,
+              ],
+            },
+            "",
+            3925016800,
+          ],
+        },
+        "",
+        1318000614,
+      ],
+    },
+    "",
+    1398390790,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > different cell > stats 1`] = `
+[
+  {
+    "receives": 11,
+    "sends": 12,
+  },
+  {
+    "receives": 12,
+    "sends": 11,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > different cell 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUF-----7JQY8",
+                1003668370,
+              ],
+              "c2": [
+                2,
+                "Nn1JUF-----4JQFF",
+                3611282601,
+              ],
+            },
+            "",
+            3405955950,
+          ],
+        },
+        "",
+        1385929071,
+      ],
+    },
+    "",
+    3956372965,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > different row > stats 1`] = `
+[
+  {
+    "receives": 8,
+    "sends": 9,
+  },
+  {
+    "receives": 9,
+    "sends": 8,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > different row 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUF-----7JQY8",
+                1003668370,
+              ],
+            },
+            "",
+            550994372,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF-----4JQFF",
+                3611282601,
+              ],
+            },
+            "",
+            3956621994,
+          ],
+        },
+        "",
+        514840343,
+      ],
+    },
+    "",
+    1075396718,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > different table > stats 1`] = `
+[
+  {
+    "receives": 5,
+    "sends": 6,
+  },
+  {
+    "receives": 6,
+    "sends": 5,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > different table 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUF-----7JQY8",
+                1003668370,
+              ],
+            },
+            "",
+            550994372,
+          ],
+        },
+        "",
+        1072852846,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF-----4JQFF",
+                3611282601,
+              ],
+            },
+            "",
+            3956621994,
+          ],
+        },
+        "",
+        559790201,
+      ],
+    },
+    "",
+    2579067098,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > object and array cell > stats 1`] = `
+[
+  {
+    "receives": 11,
+    "sends": 12,
+  },
+  {
+    "receives": 12,
+    "sends": 11,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Bidirectional, data already present > object and array cell 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                {
+                  "k1": "v",
+                },
+                "Nn1JUF-----7JQY8",
+                4180514038,
+              ],
+              "c2": [
+                [
+                  1,
+                  2,
+                  3,
+                ],
+                "Nn1JUF-----4JQFF",
+                3823624040,
+              ],
+            },
+            "",
+            1764505920,
+          ],
+        },
+        "",
+        892407385,
+      ],
+    },
+    "",
+    199016494,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > All but first empty > stats 1`] = `
+{
+  "receives": 279,
+  "sends": 111,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > All but first empty 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---07JQY8",
+                2421895620,
+              ],
+            },
+            "",
+            1666890168,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---17JQY8",
+                3520415449,
+              ],
+            },
+            "",
+            3779752731,
+          ],
+        },
+        "",
+        1075422303,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---27JQY8",
+                1724854270,
+              ],
+            },
+            "",
+            3203199628,
+          ],
+        },
+        "",
+        3277725562,
+      ],
+    },
+    "",
+    2931074034,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---37JQY8",
+        1359906076,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---47JQY8",
+        3553021608,
+      ],
+    },
+    "",
+    776317491,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > All but last empty > stats 1`] = `
+{
+  "receives": 279,
+  "sends": 111,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > All but last empty 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----GdXzv",
+                2738430358,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---0GdXzv",
+                3973230772,
+              ],
+            },
+            "",
+            3576779094,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---1GdXzv",
+                4183203697,
+              ],
+            },
+            "",
+            3459278233,
+          ],
+        },
+        "",
+        2050528086,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---2GdXzv",
+                3645903746,
+              ],
+            },
+            "",
+            689922083,
+          ],
+        },
+        "",
+        22144154,
+      ],
+    },
+    "",
+    810890926,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---3GdXzv",
+        4255683580,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---4GdXzv",
+        1145816376,
+      ],
+    },
+    "",
+    3793301388,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > All empty > stats 1`] = `
+{
+  "receives": 270,
+  "sends": 110,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > All empty 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > All match > stats 1`] = `
+{
+  "receives": 360,
+  "sends": 120,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > All match 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----GdXzv",
+                2738430358,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---0GdXzv",
+                3973230772,
+              ],
+            },
+            "",
+            3576779094,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---1GdXzv",
+                4183203697,
+              ],
+            },
+            "",
+            3459278233,
+          ],
+        },
+        "",
+        2050528086,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---2GdXzv",
+                3645903746,
+              ],
+            },
+            "",
+            689922083,
+          ],
+        },
+        "",
+        22144154,
+      ],
+    },
+    "",
+    810890926,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm---3GdXzv",
+        4255683580,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---4GdXzv",
+        1145816376,
+      ],
+    },
+    "",
+    3793301388,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting cells > stats 1`] = `
+{
+  "receives": 270,
+  "sends": 110,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting cells > stats 2`] = `
+{
+  "receives": 360,
+  "sends": 120,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting cells > stats 3`] = `
+{
+  "receives": 369,
+  "sends": 121,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting cells 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting cells 2`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                10,
+                "Nn1JUFm----GdXzv",
+                869374686,
+              ],
+            },
+            "",
+            929044347,
+          ],
+        },
+        "",
+        3733464824,
+      ],
+    },
+    "",
+    2711976480,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting cells 3`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                42,
+                "Nn1JUGZ----AJQq1",
+                885365074,
+              ],
+            },
+            "",
+            2635511916,
+          ],
+        },
+        "",
+        797238197,
+      ],
+    },
+    "",
+    3480024001,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting values > stats 1`] = `
+{
+  "receives": 360,
+  "sends": 120,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting values > stats 2`] = `
+{
+  "receives": 369,
+  "sends": 121,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting values 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {
+      "v1": [
+        10,
+        "Nn1JUFm----GdXzv",
+        869374686,
+      ],
+    },
+    "",
+    656187695,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all conflicting values 2`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {
+      "v1": [
+        42,
+        "Nn1JUGZ----8JQdR",
+        2221943437,
+      ],
+    },
+    "",
+    2758172321,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all different cells > stats 1`] = `
+{
+  "receives": 360,
+  "sends": 120,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all different cells 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+              "c10": [
+                1,
+                "Nn1JUFm----GdXzv",
+                2738430358,
+              ],
+              "c2": [
+                1,
+                "Nn1JUFm----4JQFF",
+                2320287886,
+              ],
+              "c3": [
+                1,
+                "Nn1JUFm----5JQLY",
+                18645274,
+              ],
+              "c4": [
+                1,
+                "Nn1JUFm----AJQq1",
+                1194155863,
+              ],
+              "c5": [
+                1,
+                "Nn1JUFm----BJQwK",
+                976563594,
+              ],
+              "c6": [
+                1,
+                "Nn1JUFm----8JQdR",
+                3998660100,
+              ],
+              "c7": [
+                1,
+                "Nn1JUFm----9JQjj",
+                3380797501,
+              ],
+              "c8": [
+                1,
+                "Nn1JUFm----EJRED",
+                2072255849,
+              ],
+              "c9": [
+                1,
+                "Nn1JUFm----FJRKW",
+                2242046663,
+              ],
+            },
+            "",
+            3369717516,
+          ],
+        },
+        "",
+        1064486470,
+      ],
+    },
+    "",
+    1374665646,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all different rows > stats 1`] = `
+{
+  "receives": 360,
+  "sends": 120,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all different rows 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+            },
+            "",
+            3555297513,
+          ],
+          "r10": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----GdXzv",
+                2738430358,
+              ],
+            },
+            "",
+            2998435883,
+          ],
+          "r2": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----4JQFF",
+                2320287886,
+              ],
+            },
+            "",
+            309878548,
+          ],
+          "r3": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----5JQLY",
+                18645274,
+              ],
+            },
+            "",
+            4101804749,
+          ],
+          "r4": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----AJQq1",
+                1194155863,
+              ],
+            },
+            "",
+            3430264405,
+          ],
+          "r5": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----BJQwK",
+                976563594,
+              ],
+            },
+            "",
+            2168251112,
+          ],
+          "r6": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----8JQdR",
+                3998660100,
+              ],
+            },
+            "",
+            1894182240,
+          ],
+          "r7": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----9JQjj",
+                3380797501,
+              ],
+            },
+            "",
+            999793827,
+          ],
+          "r8": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----EJRED",
+                2072255849,
+              ],
+            },
+            "",
+            1734056674,
+          ],
+          "r9": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----FJRKW",
+                2242046663,
+              ],
+            },
+            "",
+            2128234847,
+          ],
+        },
+        "",
+        3557298464,
+      ],
+    },
+    "",
+    521351371,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all different tables > stats 1`] = `
+{
+  "receives": 360,
+  "sends": 120,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all different tables 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----7JQY8",
+                4283110482,
+              ],
+            },
+            "",
+            3555297513,
+          ],
+        },
+        "",
+        2219070697,
+      ],
+      "t10": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----GdXzv",
+                2738430358,
+              ],
+            },
+            "",
+            2998435883,
+          ],
+        },
+        "",
+        1459311403,
+      ],
+      "t2": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----4JQFF",
+                2320287886,
+              ],
+            },
+            "",
+            309878548,
+          ],
+        },
+        "",
+        1628610354,
+      ],
+      "t3": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----5JQLY",
+                18645274,
+              ],
+            },
+            "",
+            4101804749,
+          ],
+        },
+        "",
+        2288800660,
+      ],
+      "t4": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----AJQq1",
+                1194155863,
+              ],
+            },
+            "",
+            3430264405,
+          ],
+        },
+        "",
+        36221261,
+      ],
+      "t5": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----BJQwK",
+                976563594,
+              ],
+            },
+            "",
+            2168251112,
+          ],
+        },
+        "",
+        2491658901,
+      ],
+      "t6": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----8JQdR",
+                3998660100,
+              ],
+            },
+            "",
+            1894182240,
+          ],
+        },
+        "",
+        3267479523,
+      ],
+      "t7": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----9JQjj",
+                3380797501,
+              ],
+            },
+            "",
+            999793827,
+          ],
+        },
+        "",
+        1140941631,
+      ],
+      "t8": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----EJRED",
+                2072255849,
+              ],
+            },
+            "",
+            1734056674,
+          ],
+        },
+        "",
+        2135353281,
+      ],
+      "t9": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----FJRKW",
+                2242046663,
+              ],
+            },
+            "",
+            2128234847,
+          ],
+        },
+        "",
+        883680319,
+      ],
+    },
+    "",
+    1740941957,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all different values > stats 1`] = `
+{
+  "receives": 360,
+  "sends": 120,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > all different values 1`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm----7JQY8",
+        4283110482,
+      ],
+      "v10": [
+        1,
+        "Nn1JUFm----GdXzv",
+        2738430358,
+      ],
+      "v2": [
+        1,
+        "Nn1JUFm----4JQFF",
+        2320287886,
+      ],
+      "v3": [
+        1,
+        "Nn1JUFm----5JQLY",
+        18645274,
+      ],
+      "v4": [
+        1,
+        "Nn1JUFm----AJQq1",
+        1194155863,
+      ],
+      "v5": [
+        1,
+        "Nn1JUFm----BJQwK",
+        976563594,
+      ],
+      "v6": [
+        1,
+        "Nn1JUFm----8JQdR",
+        3998660100,
+      ],
+      "v7": [
+        1,
+        "Nn1JUFm----9JQjj",
+        3380797501,
+      ],
+      "v8": [
+        1,
+        "Nn1JUFm----EJRED",
+        2072255849,
+      ],
+      "v9": [
+        1,
+        "Nn1JUFm----FJRKW",
+        2242046663,
+      ],
+    },
+    "",
+    3311024378,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > half tables, half values > stats 1`] = `
+{
+  "receives": 360,
+  "sends": 120,
+}
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Multidirectional > half tables, half values 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUFm----GdXzv",
+                2738430358,
+              ],
+              "c2": [
+                2,
+                "Nn1JUFm---0GdXzv",
+                3973230772,
+              ],
+            },
+            "",
+            3576779094,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---1GdXzv",
+                4183203697,
+              ],
+            },
+            "",
+            3459278233,
+          ],
+        },
+        "",
+        2050528086,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUFm---2GdXzv",
+                3645903746,
+              ],
+            },
+            "",
+            689922083,
+          ],
+        },
+        "",
+        22144154,
+      ],
+    },
+    "",
+    810890926,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUFm----BJQwK",
+        976563594,
+      ],
+      "v2": [
+        2,
+        "Nn1JUFm---0BJQwK",
+        445751836,
+      ],
+    },
+    "",
+    3533555447,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > autoLoad1 but not autoSave2, defaults > stats 1`] = `
+[
+  {
+    "receives": 0,
+    "sends": 1,
+  },
+  {
+    "receives": 1,
+    "sends": 0,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > autoLoad1 but not autoSave2, defaults 1`] = `
+[
+  [
+    {
+      "t0": [
+        {
+          "r0": [
+            {
+              "c0": [
+                0,
+                "",
+                401433231,
+              ],
+            },
+            "",
+            2660078143,
+          ],
+        },
+        "",
+        2466603274,
+      ],
+    },
+    "",
+    471459239,
+  ],
+  [
+    {
+      "v0": [
+        0,
+        "",
+        401433231,
+      ],
+    },
+    "",
+    30487211,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > autoLoad1 but not autoSave2, defaults 2`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUF-----4JQFF",
+                1571158606,
+              ],
+              "c2": [
+                2,
+                "Nn1JUF----04JQFF",
+                2579924428,
+              ],
+            },
+            "",
+            393549698,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF----14JQFF",
+                1095759933,
+              ],
+            },
+            "",
+            3942864403,
+          ],
+        },
+        "",
+        3161951752,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF----24JQFF",
+                3217479738,
+              ],
+            },
+            "",
+            2455282067,
+          ],
+        },
+        "",
+        3011490602,
+      ],
+    },
+    "",
+    2409336257,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUF----34JQFF",
+        2710197892,
+      ],
+      "v2": [
+        2,
+        "Nn1JUF----44JQFF",
+        1199714240,
+      ],
+    },
+    "",
+    1331128504,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > autoSave1 but not autoLoad2 > stats 1`] = `
+[
+  {
+    "receives": 0,
+    "sends": 2,
+  },
+  {
+    "receives": 2,
+    "sends": 0,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > autoSave1 but not autoLoad2 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUF-----7JQY8",
+                1003668370,
+              ],
+              "c2": [
+                2,
+                "Nn1JUF----07JQY8",
+                705616516,
+              ],
+            },
+            "",
+            995081933,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF----17JQY8",
+                1804136345,
+              ],
+            },
+            "",
+            3962195473,
+          ],
+        },
+        "",
+        1450058239,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF----27JQY8",
+                3879084990,
+              ],
+            },
+            "",
+            2456610213,
+          ],
+        },
+        "",
+        2784993043,
+      ],
+    },
+    "",
+    720532853,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUF----37JQY8",
+        3542219356,
+      ],
+      "v2": [
+        2,
+        "Nn1JUF----47JQY8",
+        1836742504,
+      ],
+    },
+    "",
+    608507240,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > autoSave1 but not autoLoad2 2`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > load1 but not autoSave2, defaults > stats 1`] = `
+[
+  {
+    "receives": 0,
+    "sends": 1,
+  },
+  {
+    "receives": 1,
+    "sends": 0,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > load1 but not autoSave2, defaults 1`] = `
+[
+  [
+    {
+      "t0": [
+        {
+          "r0": [
+            {
+              "c0": [
+                0,
+                "",
+                401433231,
+              ],
+            },
+            "",
+            2660078143,
+          ],
+        },
+        "",
+        2466603274,
+      ],
+    },
+    "",
+    471459239,
+  ],
+  [
+    {
+      "v0": [
+        0,
+        "",
+        401433231,
+      ],
+    },
+    "",
+    30487211,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > load1 but not autoSave2, defaults 2`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUF-----4JQFF",
+                1571158606,
+              ],
+              "c2": [
+                2,
+                "Nn1JUF----04JQFF",
+                2579924428,
+              ],
+            },
+            "",
+            393549698,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF----14JQFF",
+                1095759933,
+              ],
+            },
+            "",
+            3942864403,
+          ],
+        },
+        "",
+        3161951752,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF----24JQFF",
+                3217479738,
+              ],
+            },
+            "",
+            2455282067,
+          ],
+        },
+        "",
+        3011490602,
+      ],
+    },
+    "",
+    2409336257,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUF----34JQFF",
+        2710197892,
+      ],
+      "v2": [
+        2,
+        "Nn1JUF----44JQFF",
+        1199714240,
+      ],
+    },
+    "",
+    1331128504,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > save1 but not autoLoad2 > stats 1`] = `
+[
+  {
+    "receives": 0,
+    "sends": 1,
+  },
+  {
+    "receives": 1,
+    "sends": 0,
+  },
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > save1 but not autoLoad2 1`] = `
+[
+  [
+    {
+      "t1": [
+        {
+          "r1": [
+            {
+              "c1": [
+                1,
+                "Nn1JUF-----7JQY8",
+                1003668370,
+              ],
+              "c2": [
+                2,
+                "Nn1JUF----07JQY8",
+                705616516,
+              ],
+            },
+            "",
+            995081933,
+          ],
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF----17JQY8",
+                1804136345,
+              ],
+            },
+            "",
+            3962195473,
+          ],
+        },
+        "",
+        1450058239,
+      ],
+      "t2": [
+        {
+          "r2": [
+            {
+              "c2": [
+                2,
+                "Nn1JUF----27JQY8",
+                3879084990,
+              ],
+            },
+            "",
+            2456610213,
+          ],
+        },
+        "",
+        2784993043,
+      ],
+    },
+    "",
+    720532853,
+  ],
+  [
+    {
+      "v1": [
+        1,
+        "Nn1JUF----37JQY8",
+        3542219356,
+      ],
+      "v2": [
+        2,
+        "Nn1JUF----47JQY8",
+        1836742504,
+      ],
+    },
+    "",
+    608507240,
+  ],
+]
+`;
+
+exports[`Syncs to/from SpacetimeDbSynchronizer > Unidirectional > save1 but not autoLoad2 2`] = `
+[
+  [
+    {},
+    "",
+    0,
+  ],
+  [
+    {},
+    "",
+    0,
+  ],
+]
+`;
+
 exports[`Syncs to/from WsSynchronizer > Bidirectional > Both empty > stats 1`] = `
 [
   {

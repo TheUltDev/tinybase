@@ -49,7 +49,7 @@ is available.
 | SqliteWasmPersister        | SQLite in a browser, via [sqlite-wasm](https://github.com/tomayac/sqlite-wasm)                                   |
 | ExpoSqlitePersister        | SQLite in React Native, via [expo-sqlite](https://github.com/expo/expo/tree/main/packages/expo-sqlite)           |
 | ReactNativeSqlitePersister | SQLite in React Native, via [react-native-sqlite-storage](https://github.com/andpor/react-native-sqlite-storage) |
-| CapacitorSqlitePersister   | SQLite in Capacitor, via [capacitor-sqlite](https://github.com/capacitor-community/sqlite)                      |
+| CapacitorSqlitePersister   | SQLite in Capacitor, via [capacitor-sqlite](https://github.com/capacitor-community/sqlite)                       |
 | CrSqliteWasmPersister      | SQLite CRDTs, via [cr-sqlite-wasm](https://github.com/vlcn-io/cr-sqlite)                                         |
 | ElectricSqlPersister       | Electric SQL, via [electric](https://github.com/electric-sql/electric)                                           |
 | LibSqlPersister            | LibSQL for Turso, via [libsql-client](https://github.com/tursodatabase/libsql-client-ts)                         |
@@ -57,7 +57,7 @@ is available.
 | PgPersister                | PostgreSQL, via [pg](https://github.com/brianc/node-postgres)                                                    |
 | PostgresPersister          | PostgreSQL, via [postgres](https://github.com/porsager/postgres)                                                 |
 | PglitePersister            | PostgreSQL, via [PGlite](https://github.com/electric-sql/pglite)                                                 |
-| SupabasePersister          | Supabase, via [supabase-js](https://github.com/supabase/supabase-js)                                            |
+| SupabasePersister          | Supabase, via [supabase-js](https://github.com/supabase/supabase-js)                                             |
 
 See the Database Persistence guide for details on how to work with databases.
 
@@ -77,13 +77,15 @@ storage form.
 ### Third-Party CRDT & Socket Persisters
 
 These Persisters can bind your Store into third-party CRDT frameworks, or
-synchronize over sockets to PartyKit.
+synchronize over sockets to PartyKit or SpacetimeDB (the latter for a
+MergeableStore only).
 
-| Persister          | Storage                                                                            |
-| ------------------ | ---------------------------------------------------------------------------------- |
-| YjsPersister       | Yjs CRDTs, via [yjs](https://github.com/yjs/yjs)                                   |
-| AutomergePersister | Automerge CRDTs, via [automerge-repo](https://github.com/automerge/automerge-repo) |
-| PartyKitPersister  | [PartyKit](https://www.partykit.io/), via the persister-partykit-server module     |
+| Persister            | Storage                                                                                                  |
+| -------------------- | -------------------------------------------------------------------------------------------------------- |
+| YjsPersister         | Yjs CRDTs, via [yjs](https://github.com/yjs/yjs)                                                         |
+| AutomergePersister   | Automerge CRDTs, via [automerge-repo](https://github.com/automerge/automerge-repo)                       |
+| PartyKitPersister    | [PartyKit](https://www.partykit.io/), via the persister-partykit-server module                           |
+| SpacetimeDbPersister | [SpacetimeDB](https://spacetimedb.com/), via [spacetimedb](https://github.com/clockworklabs/SpacetimeDB) |
 
 See the Third-Party CRDT Persistence guide for more complex synchronization with
 the CRDT frameworks.

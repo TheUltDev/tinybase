@@ -5,6 +5,63 @@ highlighted features.
 
 ---
 
+# v9.7
+
+## In Summary
+
+- [A new Persister for SpacetimeDB](#spacetimedb), which keeps a MergeableStore
+  in typed tables that the database itself merges, so that every client
+  converges without a Synchronizer.
+- [A new Synchronizer for SpacetimeDB](#synchronizing-via-spacetimedb), for
+  when you want the database as a transport only.
+
+## SpacetimeDB
+
+The new persister-spacetimedb module provides the SpacetimeDbPersister, which
+binds a MergeableStore to a [SpacetimeDB](https://spacetimedb.com/) database
+via its `spacetimedb` TypeScript SDK.
+
+It is unlike the other database Persisters. Each Store Table is a typed
+SpacetimeDB table with a row per Row and a column per Cell (so your module can
+read and index the data), and beside each Cell column is a column holding the
+Cell's clock. A reducer that you add to your module merges incoming rows with
+the same later-clock-wins rule that a MergeableStore uses, so the database holds
+the merged state of every client, each client's subscription delivers everyone
+else's changes as they happen, and offline changes merge on reconnection in both
+directions. There is no need for a Synchronizer, or for any other client to be
+online.
+
+```js ignore
+import {createMergeableStore} from 'tinybase';
+import {createSpacetimeDbPersister} from 'tinybase/persisters/persister-spacetimedb';
+import {DbConnection} from './module_bindings';
+
+const connection = DbConnection.builder()
+  .withUri('ws://localhost:3000')
+  .withDatabaseName('my-database')
+  .build();
+const store = createMergeableStore();
+const persister = createSpacetimeDbPersister(store, connection, {
+  tables: {pets: 'pets'},
+  values: true,
+});
+await persister.startAutoPersisting();
+```
+
+Several Stores can share one table, each subscribing to its own rows, and Cell
+Ids can be mapped to column names. See the createSpacetimeDbPersister function
+documentation for the module code you need, and the options.
+
+## Synchronizing via SpacetimeDB
+
+The new synchronizer-spacetimedb module provides the SpacetimeDbSynchronizer,
+which sends synchronization messages between clients through a SpacetimeDB
+event table, filtered by channel on the server. Nothing is stored, so this is
+for ephemeral state, and for most apps the SpacetimeDbPersister is the better
+choice. Both can share one connection.
+
+---
+
 # v9.6
 
 ## In Summary

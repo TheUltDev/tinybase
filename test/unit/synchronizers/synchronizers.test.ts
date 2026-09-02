@@ -4,12 +4,14 @@ import type {Receive, Synchronizer} from 'tinybase/synchronizers';
 import {Message, createCustomSynchronizer} from 'tinybase/synchronizers';
 import {createBroadcastChannelSynchronizer} from 'tinybase/synchronizers/synchronizer-broadcast-channel';
 import {createLocalSynchronizer} from 'tinybase/synchronizers/synchronizer-local';
+import {createSpacetimeDbSynchronizer} from 'tinybase/synchronizers/synchronizer-spacetimedb';
 import {createWsSynchronizer} from 'tinybase/synchronizers/synchronizer-ws-client';
 import type {WsServer} from 'tinybase/synchronizers/synchronizer-ws-server';
 import {createWsServer} from 'tinybase/synchronizers/synchronizer-ws-server';
 import {afterEach, beforeEach, describe, expect, test, vi} from 'vitest';
 import {WebSocket} from 'ws';
 import {getTimeFunctions} from '../common/mergeable.ts';
+import {createMockSyncServer} from '../common/spacetimedb.ts';
 import {
   createTestWebSocketServer,
   getTestWebSocketUrl,
@@ -72,6 +74,15 @@ const mockBroadcastChannelSynchronizer: Synchronizable<undefined> = {
   getSynchronizer: async (store: MergeableStore) =>
     createBroadcastChannelSynchronizer(store, 'channel'),
   pauseMilliseconds: 20,
+};
+
+const mockSpacetimeDbSynchronizer: Synchronizable<
+  ReturnType<typeof createMockSyncServer>
+> = {
+  createEnvironment: () => createMockSyncServer(),
+  getSynchronizer: async (store: MergeableStore, server) =>
+    createSpacetimeDbSynchronizer(store, server.createConnection()),
+  pauseMilliseconds: 50,
 };
 
 const mockCustomSynchronizer: Synchronizable<
@@ -303,6 +314,7 @@ describe.each([
   ['LocalSynchronizer', mockLocalSynchronizer],
   ['WsSynchronizer', mockWsSynchronizer],
   ['BroadcastChannelSynchronizer', mockBroadcastChannelSynchronizer],
+  ['SpacetimeDbSynchronizer', mockSpacetimeDbSynchronizer],
   ['Custom Synchronizer', mockCustomSynchronizer],
 ] as any[])(
   'Syncs to/from %s',

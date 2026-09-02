@@ -12,13 +12,15 @@ method and a stopSync method.
 
 ## Types Of Synchronizer
 
-In TinyBase v5.0, there are three types of Synchronizer:
+There are four types of Synchronizer:
 
 - The WsSynchronizer uses WebSockets to communicate between different systems.
 - The BroadcastChannelSynchronizer uses the browser's BroadcastChannel API to
   communicate between different tabs and workers.
 - The LocalSynchronizer demonstrates synchronization in memory on a single local
   system.
+- The SpacetimeDbSynchronizer uses an event table in a SpacetimeDB database to
+  communicate between all the clients connected to it.
 
 Of course it is also possible to create custom Synchronizer objects if you have
 a transmission medium that allows the synchronization messages to be sent

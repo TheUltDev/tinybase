@@ -124,11 +124,16 @@ MergeableStore, but _only_ in the 'JSON-serialization' mode:
 | SqliteWasmPersister        | SQLite in a browser, via [sqlite-wasm](https://github.com/tomayac/sqlite-wasm)                                   |
 | ExpoSqlitePersister        | SQLite in React Native, via [expo-sqlite](https://github.com/expo/expo/tree/main/packages/expo-sqlite)           |
 | ReactNativeSqlitePersister | SQLite in React Native, via [react-native-sqlite-storage](https://github.com/andpor/react-native-sqlite-storage) |
-| CapacitorSqlitePersister   | SQLite in Capacitor, via [capacitor-sqlite](https://github.com/capacitor-community/sqlite)                      |
+| CapacitorSqlitePersister   | SQLite in Capacitor, via [capacitor-sqlite](https://github.com/capacitor-community/sqlite)                       |
 | PgPersister                | PostgreSQL, via [pg](https://github.com/brianc/node-postgres)                                                    |
 | PostgresPersister          | PostgreSQL, via [postgres](https://github.com/porsager/postgres)                                                 |
 | PglitePersister            | PostgreSQL, via [PGlite](https://github.com/electric-sql/pglite)                                                 |
-| SupabasePersister          | Supabase, via [supabase-js](https://github.com/supabase/supabase-js)                                            |
+| SupabasePersister          | Supabase, via [supabase-js](https://github.com/supabase/supabase-js)                                             |
+
+The SpacetimeDbPersister is a special case: it stores the Cells and Values of
+the Tables you configure in typed SpacetimeDB columns, each with its clock
+alongside, and has the database merge them, so that all the clients using it converge on the
+same content. See the persister-spacetimedb module for details.
 
 The following database-oriented Persister types _cannot_ currently be used to
 persist a MergeableStore:

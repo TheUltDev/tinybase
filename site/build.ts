@@ -401,6 +401,7 @@ const addApi = (docs: Docs): Docs =>
       'dist/@types/persisters/persister-react-native-sqlite/index.d.ts',
     )
     .addApiFile('dist/@types/persisters/persister-remote/index.d.ts')
+    .addApiFile('dist/@types/persisters/persister-spacetimedb/index.d.ts')
     .addApiFile('dist/@types/persisters/persister-sqlite-bun/index.d.ts')
     .addApiFile('dist/@types/persisters/persister-sqlite-wasm/index.d.ts')
     .addApiFile('dist/@types/persisters/persister-sqlite3/index.d.ts')
@@ -421,6 +422,7 @@ const addApi = (docs: Docs): Docs =>
       'dist/@types/synchronizers/synchronizer-broadcast-channel/index.d.ts',
     )
     .addApiFile('dist/@types/synchronizers/synchronizer-local/index.d.ts')
+    .addApiFile('dist/@types/synchronizers/synchronizer-spacetimedb/index.d.ts')
     .addApiFile('dist/@types/synchronizers/synchronizer-ws-client/index.d.ts')
     .addApiFile('dist/@types/synchronizers/synchronizer-ws-server/index.d.ts')
     .addApiFile(
